@@ -25,7 +25,7 @@ This is the administrator username to be able to add / remove users and change t
 
 Example: 
 ```
-adUserName = "SECAdmin"
+adUserName = "Admin"
 ```
 
 ## adHost
@@ -34,7 +34,7 @@ This is the domain that the DC uses.
 
 Example:
 ```
-adHost = "SEC.local"
+adHost = "test.local"
 ```
 
 ## adPasswd
@@ -54,7 +54,7 @@ WARNING: If you set the protocol to ldap, the web will NOT work
 
 Example: 
 ```
-adURL = "ldaps://87.34.176.2"
+adURL = "ldaps://192.168.1.54"
 ```
 
 ## adBase
@@ -63,8 +63,8 @@ This is the path to add the users.
 
 For example, the following structure:
 
-+ SEC.local
-    + 2022
++ test.local
+    + Students
         + A
         + B
         + C
@@ -75,7 +75,7 @@ For example, the following structure:
 Should be configured like:
 
 ```
-adBase = "OU=2022,DC=SEC,DC=local"
+adBase = "OU=Students,DC=test,DC=local"
 ```
 
 ## userDBFile
