@@ -2,7 +2,7 @@
 
 This is a web panel for users to manage their data and admins to reset and manage the entire thing
 
-Please note: This is still in development
+Please note: This is still in development. Teacher functionality and file management will be added in the future
 
 # Instructions
 
