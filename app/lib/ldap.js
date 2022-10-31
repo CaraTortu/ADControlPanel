@@ -153,14 +153,11 @@ export function RegenerateDB() {
                     cn: username,
                     objectClass: 'user',
                     unicodePwd: encodePassword(passwd),
-                    homeDirectory: '\\\\t4dc\\users$\\' + username,
-                    homeDrive: 'U:',
                     sAMAccountName: username,
                     company: '2022',
                     givenName: username,
                     displayName: username,
                     userPrincipalNAme: username + '@' + Config.adHost,
-                    scriptPath: 'student.bat',
                     department: username,
                     userAccountControl: 512
                 }
